@@ -1,0 +1,30 @@
+# Dataset (besar & milik dosen)
+data_C.csv
+data_C/
+
+# MLflow tracking (lokal saja)
+mlruns/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+*.env
+venv/
+env/
+
+# Jupyter checkpoint
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS credentials (JANGAN pernah di-push)
+*.pem
+.aws/
+credentials

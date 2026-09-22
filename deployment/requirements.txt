@@ -1,0 +1,11 @@
+# requirements.txt — Credit Score Classifier deployment
+# Versi dipin (>=) untuk reproducibility, tidak terlalu ketat agar mudah deploy
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+joblib>=1.3.0
+plotly>=5.18.0
+# Untuk pipeline retraining lokal (opsional di production)
+mlflow>=2.10.0
