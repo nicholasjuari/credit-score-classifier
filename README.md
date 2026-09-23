@@ -1,5 +1,6 @@
 # Final Project — Model Deployment
 **Nicholas Juari — 2802413064**
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nicholasjuari-credit-score.streamlit.app)
 
 ## Deskripsi
 Sistem klasifikasi credit score nasabah (Good / Standard / Poor) memakai dataset C.
@@ -7,6 +8,12 @@ Setelah membandingkan Logistic Regression, Random Forest, dan XGBoost, model
 yang dipakai adalah **Random Forest** (test accuracy 70.3%, F1 macro 0.69, ROC-AUC 0.85).
 
 Project ini di-deploy dua cara: lokal dengan Streamlit, dan di cloud AWS (S3 + EC2).
+
+## Demo
+
+Live app: https://nicholasjuari-credit-score.streamlit.app
+
+GitHub repo: https://github.com/nicholasjuari/credit-score-classifier
 
 ## Struktur Project
 
